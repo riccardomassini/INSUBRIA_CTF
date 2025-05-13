@@ -1,0 +1,7 @@
+services:
+  robots_and_headers:
+    build: .
+    ports:
+      - "6001:6001"
+    environment:
+      FLAG: "flag{m4yb3_a_s4n1ty_ch3ck?}"

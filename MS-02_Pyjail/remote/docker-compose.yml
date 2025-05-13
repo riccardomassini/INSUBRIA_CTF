@@ -1,0 +1,9 @@
+services:
+  pyjail:
+    build: .
+    ports:
+      - "5004:1337"
+    volumes:
+      - ./app/app.py:/app/app.py
+    environment:
+      - flag=flag{e4sy_pyjail_f0r_e4sy_p0ints!}

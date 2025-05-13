@@ -1,0 +1,8 @@
+services:
+  php_is_fun:
+    build: .
+    ports:
+      - "6003:80"
+    volumes:
+      - ./app/index.php:/var/www/html/index.php
+      - ./flag.txt:/flag.txt
