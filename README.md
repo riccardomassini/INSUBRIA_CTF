@@ -38,7 +38,25 @@
 <tr>
     <td><a href="web/Cat_Viewer">Cat Viewer</a></td>
     <td>Web</td>
-    <td><font color=grey>Medium</font></td>
+    <td><font color=grey>Hard</font></td>
     <td>B1lly</td>
+</tr>
+<tr>
+    <td><a href="crypto/AES_Symmetric/">AES Symmetric</a></td>
+    <td>Crypto</td>
+    <td><font color=grey>Easy</font></td>
+    <td>Natu</td>
+</tr>
+<tr>
+    <td><a href="crypto/Big_Leak/">Big Leak</a></td>
+    <td>Crypto</td>
+    <td><font color=grey>Medium</font></td>
+    <td>Natu</td>
+</tr>
+<tr>
+    <td><a href="crypto/El_Gamal_DS/">El Gamal DS</a></td>
+    <td>Crypto</td>
+    <td><font color=grey>Hard</font></td>
+    <td>Natu</td>
 </tr>
 </table>
