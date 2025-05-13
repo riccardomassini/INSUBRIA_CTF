@@ -18,25 +18,25 @@
     <td>B1lly</td>
 </tr>
 <tr>
-    <td><a href="misc/Robots_And_Headers">Robots And Headers</a></td>
+    <td><a href="web/Robots_And_Headers">Robots And Headers</a></td>
     <td>Web</td>
     <td><font color=grey>Warmup</font></td>
     <td>B1lly</td>
 </tr>
 <tr>
-    <td><a href="misc/Not_A_Collision">Not A Collision</a></td>
+    <td><a href="web/Not_A_Collision">Not A Collision</a></td>
     <td>Web</td>
     <td><font color=grey>Easy</font></td>
     <td>B1lly</td>
 </tr>
 <tr>
-    <td><a href="misc/Php_Is_Fun">Php Is Fun</a></td>
+    <td><a href="web/Php_Is_Fun">Php Is Fun</a></td>
     <td>Web</td>
     <td><font color=grey>Medium</font></td>
     <td>B1lly</td>
 </tr>
 <tr>
-    <td><a href="misc/Cat_Viewer">Cat Viewer</a></td>
+    <td><a href="web/Cat_Viewer">Cat Viewer</a></td>
     <td>Web</td>
     <td><font color=grey>Medium</font></td>
     <td>B1lly</td>
