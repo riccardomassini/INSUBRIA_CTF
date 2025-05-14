@@ -13,7 +13,7 @@ services:
     depends_on:
       - db
     volumes:
-      - ./app/:/var/www/html/
+      - ./app/index.php:/var/www/html/index.php
   db:
     image: mysql:5.7
     environment:

@@ -4,4 +4,4 @@ services:
     ports:
       - "6002:80"
     volumes:
-      - ./app/:/var/www/html/
+      - ./app/index.php:/var/www/html/index.php
