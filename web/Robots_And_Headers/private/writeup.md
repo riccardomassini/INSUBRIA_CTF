@@ -1,9 +1,6 @@
 # Robots and headers
 
-## Description
-Welcome to Robots and headers! The flag awaits a special request...
-
-## Solution
+## Overview
 By analyzing html we can notice the following comment: ``` <!-- For web crawlers: Check /robots.txt for guidance --> ```, and here in ``` /robots.txt ``` we can see an interesting endpoint, which is ``` /nothing_interesting ```. Visiting that page provides the instructions to obtain the flag.
 
 ## Exploit

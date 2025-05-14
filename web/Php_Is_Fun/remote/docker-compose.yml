@@ -4,5 +4,5 @@ services:
     ports:
       - "6003:80"
     volumes:
-      - ./app/index.php:/var/www/html/index.php
+      - ./app/:/var/www/html/
       - ./flag.txt:/flag.txt
