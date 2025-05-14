@@ -3,5 +3,7 @@ services:
     build: .
     ports:
       - "6001:6001"
+    volumes:
+      - ./app:/app1
     environment:
       FLAG: "flag{m4yb3_a_s4n1ty_ch3ck?}"
