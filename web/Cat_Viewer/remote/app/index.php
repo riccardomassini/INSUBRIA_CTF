@@ -32,6 +32,7 @@
         $image_id = $_POST["id"];
         $image_id = str_replace("'", "\\'", $image_id);
         $image_id = str_replace('"', '\\"', $image_id);
+        $image_id = str_replace(" ", "", $image_id);
 
         $banned_keywords = ["UNION", "SELECT", "FROM", "WHERE", "AND", "OR", "INSERT", "UPDATE", "DELETE", "DROP", "TABLE", "DATABASE", "SCHEMA", "COLUMN", "ALTER", "CREATE", "INDEX", "TRIGGER", "VIEW", "SLEEP", "BENCHMARK", "LOAD_FILE"];
         
