@@ -1,1 +1,1 @@
-Good luck 
+Sanity check ftw 🚀
