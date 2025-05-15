@@ -1,3 +1,10 @@
+# Brr Brr Patapim
+
+## Overview
+To get the flag, you need to enter the correct password into the only available form. The password can be easily obtained by using the indices provided in the file 'brainroot_list.txt' and retrieving one character for each row-column combination. This can be done manually or with a simple Python script.
+
+## Exploit
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -39,3 +46,4 @@ resp = requests.post(url, data={"password": password})
 flag = BeautifulSoup(resp.text, "html.parser").find("div", class_="message success").get_text()
 
 print(flag)
+```
