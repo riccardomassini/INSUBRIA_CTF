@@ -7,3 +7,4 @@ RUN apt-get update && apt-get install -y default-mysql-client \
 COPY app/ /var/www/html/
 COPY flag.txt /flag.txt
 RUN chmod 444 /flag.txt
+RUN chmod -R 755 /var/www/html/images

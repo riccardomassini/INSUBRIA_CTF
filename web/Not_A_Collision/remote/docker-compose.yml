@@ -5,3 +5,4 @@ services:
       - "6002:80"
     volumes:
       - ./app/index.php:/var/www/html/index.php
+      - ./app/home.php:/var/www/html/home.php
