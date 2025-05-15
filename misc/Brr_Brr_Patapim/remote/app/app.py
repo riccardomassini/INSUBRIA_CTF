@@ -117,7 +117,9 @@ TEMPLATE = """
         <button type="submit">Click</button>
 
         {% if flag %}
-            <div class="message success">{{ flag }}</div>
+            <center>
+                <div class="message success">{{ flag }}</div>
+            </center>
         {% elif error %}
             <center>
                 <div class="message error">Wrong password</div>
