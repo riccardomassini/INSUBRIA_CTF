@@ -9,4 +9,4 @@ RUN echo '#!/bin/sh\nstty -echo\nexec python /app/app.py' > /app/launch.sh && ch
 RUN useradd -ms /bin/bash appuser
 USER appuser
 
-CMD socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"/app/launch.sh"
+CMD socat TCP-LISTEN:6005,reuseaddr,fork EXEC:"/app/launch.sh"
