@@ -1,12 +1,14 @@
-FROM python:3.9
+FROM python:3.9-slim
 
-RUN apt-get update && apt-get install -y socat
+RUN apt-get update && apt-get install -y socat && rm -rf /var/lib/apt/lists/*
+RUN useradd -ms /bin/bash appuser
 
 WORKDIR /app
 COPY app/ /app
 
-RUN echo '#!/bin/sh\nstty -echo\nexec python /app/app.py' > /app/launch.sh && chmod +x /app/launch.sh
-RUN useradd -ms /bin/bash appuser
+RUN echo '#!/bin/bash\nexec socat TCP-LISTEN:6005,reuseaddr,fork EXEC:"timeout 300 python3 -u /app/app.py"' > /app/entrypoint.sh && \
+    chmod +x /app/entrypoint.sh
+
 USER appuser
 
-CMD socat TCP-LISTEN:6005,reuseaddr,fork EXEC:"/app/launch.sh"
+ENTRYPOINT ["./entrypoint.sh"]
