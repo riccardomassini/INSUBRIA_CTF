@@ -48,6 +48,12 @@
     <td>Riccardo Massini <@b1lly></td>
 </tr>
 <tr>
+    <td><a href="crypto/One_Liner_Cipher/">One Liner Cipher</a></td>
+    <td>Crypto</td>
+    <td><font color=grey>Warmup</font></td>
+    <td>Riccardo Massini <@b1lly></td>
+</tr>
+<tr>
     <td><a href="crypto/AES_Symmetric/">AES Symmetric</a></td>
     <td>Crypto</td>
     <td><font color=grey>Easy</font></td>
