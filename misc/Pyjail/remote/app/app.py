@@ -1,7 +1,4 @@
-import signal
-
 BANNER = "Welcome to PyJail"
-TIMEOUT = 300
 
 def main():
     print(BANNER)
@@ -12,9 +9,8 @@ def main():
                 print("Blocked!")
                 continue
             exec(user_input)
-        except Exception:
+        except Exception as e:
             continue
 
 if __name__ == "__main__":
-    signal.alarm(TIMEOUT)
     main()
