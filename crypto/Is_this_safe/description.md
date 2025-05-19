@@ -1,4 +1,4 @@
-l mio prof dice che è difficile calcolare il logaritmo discreto,
+Il mio prof dice che è difficile calcolare il logaritmo discreto,
 non so cosa voglia dire,
 ma a me sembra che centrino le moltiplicazioni. 
 
