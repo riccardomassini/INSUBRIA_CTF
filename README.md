@@ -14,13 +14,13 @@
 <tr>
     <td><a href="misc/Brr_Brr_Patapim/">Brr Brr Patapim</a></td>
     <td>Misc</td>
-    <td><font color=grey>Warmup</font></td>
+    <td><font color=grey>Easy</font></td>
     <td>Riccardo Massini <@b1lly></td>
 </tr>
 <tr>
     <td><a href="misc/Decoding_Master/">Decoding Master</a></td>
     <td>Misc</td>
-    <td><font color=grey>Easy</font></td>
+    <td><font color=grey>Medium</font></td>
     <td>Lorenzo Radice <@ozneroL541></td>
 </tr>
 <tr>
