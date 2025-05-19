@@ -24,12 +24,6 @@
     <td>Lorenzo Radice <@ozneroL541></td>
 </tr>
 <tr>
-    <td><a href="misc/Matrioska2/">Matrioska2</a></td>
-    <td>Misc</td>
-    <td><font color=grey>Medium</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
     <td><a href="misc/Pyjail">Pyjail</a></td>
     <td>Misc</td>
     <td><font color=grey>Medium</font></td>
