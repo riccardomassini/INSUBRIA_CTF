@@ -90,18 +90,6 @@
     <td>Lorenzo Radice <@ozneroL541></td>
 </tr>
 <tr>
-    <td><a href="crypto/Discoteca/">Discoteca</a></td>
-    <td>Crypto</td>
-    <td><font color=grey>Easy</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
-    <td><a href="misc/Into_the_dark_side/">Into the dark side</a></td>
-    <td>Misc</td>
-    <td><font color=grey>WarmUp</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
     <td><a href="crypto/Is_this_safe/">Is this safe?</a></td>
     <td>Crypto</td>
     <td><font color=grey>Easy</font></td>
@@ -111,24 +99,6 @@
     <td><a href="misc/Matrioska2/">Matrioska2</a></td>
     <td>Misc</td>
     <td><font color=grey>Medium</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
-    <td><a href="misc/Morituri_te_salutant/">Morituri te salutant</a></td>
-    <td>Misc</td>
-    <td><font color=grey>Medium</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
-    <td><a href="binary/am_i_SHecure/">am i SHecure</a></td>
-    <td>Rev</td>
-    <td><font color=grey>Easy</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
-    <td><a href="misc/You_know_what_to_do/">You know what to do</a></td>
-    <td>Misc</td>
-    <td><font color=grey>WarmUp</font></td>
     <td>Lorenzo Radice <@ozneroL541></td>
 </tr>
 </table>
