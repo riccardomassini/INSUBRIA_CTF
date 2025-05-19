@@ -18,9 +18,21 @@
     <td>Riccardo Massini <@b1lly></td>
 </tr>
 <tr>
-    <td><a href="misc/Pyjail">Pyjail</a></td>
+    <td><a href="misc/Decoding_Master/">Decoding Master</a></td>
     <td>Misc</td>
     <td><font color=grey>Easy</font></td>
+    <td>Lorenzo Radice <@ozneroL541></td>
+</tr>
+<tr>
+    <td><a href="misc/Matrioska2/">Matrioska2</a></td>
+    <td>Misc</td>
+    <td><font color=grey>Medium</font></td>
+    <td>Lorenzo Radice <@ozneroL541></td>
+</tr>
+<tr>
+    <td><a href="misc/Pyjail">Pyjail</a></td>
+    <td>Misc</td>
+    <td><font color=grey>Medium</font></td>
     <td>Riccardo Massini <@b1lly></td>
 </tr>
 <tr>
@@ -54,6 +66,12 @@
     <td>Riccardo Massini <@b1lly></td>
 </tr>
 <tr>
+    <td><a href="crypto/Is_this_safe/">Is this safe?</a></td>
+    <td>Crypto</td>
+    <td><font color=grey>Easy</font></td>
+    <td>Lorenzo Radice <@ozneroL541></td>
+</tr>
+<tr>
     <td><a href="crypto/AES_Symmetric/">AES Symmetric</a></td>
     <td>Crypto</td>
     <td><font color=grey>Easy</font></td>
@@ -82,23 +100,5 @@
     <td>Pwn</td>
     <td><font color=grey>Medium</font></td>
     <td>Alessandro Bugno <@burgos></td>
-</tr>
-<tr>
-    <td><a href="misc/Decoding_Master/">Decoding Master</a></td>
-    <td>Misc</td>
-    <td><font color=grey>Medium</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
-    <td><a href="crypto/Is_this_safe/">Is this safe?</a></td>
-    <td>Crypto</td>
-    <td><font color=grey>Easy</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
-</tr>
-<tr>
-    <td><a href="misc/Matrioska2/">Matrioska2</a></td>
-    <td>Misc</td>
-    <td><font color=grey>Medium</font></td>
-    <td>Lorenzo Radice <@ozneroL541></td>
 </tr>
 </table>
