@@ -54,15 +54,9 @@
     <td>Riccardo Massini <@b1lly></td>
 </tr>
 <tr>
-    <td><a href="crypto/One_Line_Cipher/">One Line Cipher</a></td>
-    <td>Crypto</td>
-    <td><font color=grey>Warmup</font></td>
-    <td>Riccardo Massini <@b1lly></td>
-</tr>
-<tr>
     <td><a href="crypto/Is_this_safe/">Is this safe?</a></td>
     <td>Crypto</td>
-    <td><font color=grey>Easy</font></td>
+    <td><font color=grey>Warmup</font></td>
     <td>Lorenzo Radice <@ozneroL541></td>
 </tr>
 <tr>

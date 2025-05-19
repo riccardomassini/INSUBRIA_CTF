@@ -1,1 +1,0 @@
-Just a crypto warmup 🏋‍♀
