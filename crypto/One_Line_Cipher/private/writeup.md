@@ -1,4 +1,4 @@
-# One Linear Cipher
+# One Line Cipher
 
 ## Overview
 To get the flag, you need to reverse the function by brute forcing all possible values of k (from 1 to 200).
