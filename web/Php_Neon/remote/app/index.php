@@ -220,7 +220,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Neon php</h1>
+        <h1>PHP NEON</h1>
         <p class="subtitle">View source <a href="?source" title="View the source code of this challenge">[here]</a>. Initiate RCE sequence.</p>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
