@@ -227,7 +227,7 @@
 <body>
     <div class="container">
         <h1>Agent 1337</h1>
-        <p class="subtitle">View source <a href="?source" title="View the source code of this challenge">[here]</a>. Initiate RCE sequence.</p>
+        <p class="subtitle">View source <a href="?source" title="View the source code of this challenge">[here]</a>.</p>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
             <input type="text" name="username" placeholder="Enter Agent ID ..." required>
