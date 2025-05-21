@@ -57,7 +57,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Php Neon</title>
+    <title>Agent 1337</title>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -193,13 +193,13 @@
         }
 
         .output-area:not(.empty)::before {
-            content: "C:\\system32> ";
+            content: "C:\\Windows\\System32> ";
             display: inline;
             color: var(--terminal-green);
         }
 
         .output-area.empty::before {
-            content: "C:\\system32> ";
+            content: "C:\\Windows\\System32> ";
             display: inline;
             color: var(--terminal-green);
         }
@@ -226,7 +226,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Php Neon</h1>
+        <h1>Agent 1337</h1>
         <p class="subtitle">View source <a href="?source" title="View the source code of this challenge">[here]</a>. Initiate RCE sequence.</p>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
