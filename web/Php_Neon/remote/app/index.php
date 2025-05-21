@@ -57,7 +57,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon H@ckZ0n3 - PHP RCE</title>
+    <title>Php Neon</title>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -220,11 +220,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>PHP NEON</h1>
+        <h1>Php Neon</h1>
         <p class="subtitle">View source <a href="?source" title="View the source code of this challenge">[here]</a>. Initiate RCE sequence.</p>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
-            <input type="text" name="username" placeholder="Enter Agent ID (username)..." required>
+            <input type="text" name="username" placeholder="Enter Agent ID ..." required>
             <input type="submit" name="register" value="Establish Connection">
         </form>
 
