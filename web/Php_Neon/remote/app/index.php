@@ -199,7 +199,13 @@
         }
 
         .output-area.empty::before {
-            content: "C:\\system32> _";
+            content: "C:\\system32> ";
+            display: inline;
+            color: var(--terminal-green);
+        }
+
+        .output-area.empty::after {
+            content: "_";
             display: inline;
             color: var(--terminal-green);
             animation: blinkCursor 1s infinite steps(1, end);
