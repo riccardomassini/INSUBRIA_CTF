@@ -1,5 +1,5 @@
 services:
-  php_is_fun:
+  agent_1337:
     build: .
     ports:
       - "6003:80"
