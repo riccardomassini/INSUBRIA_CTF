@@ -12,6 +12,12 @@
     <td></td>
 </tr>
 <tr>
+    <td><a href="misc/Into_the_dark_side">Into the dark side</a></td>
+    <td>Misc</td>
+    <td><font color=grey>Warmup</font></td>
+    <td>Lorenzo Radice <@ozneroL541></td>
+</tr>
+<tr>
     <td><a href="misc/Brr_Brr_Patapim/">Brr Brr Patapim</a></td>
     <td>Misc</td>
     <td><font color=grey>Easy</font></td>
