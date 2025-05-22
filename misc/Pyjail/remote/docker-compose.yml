@@ -6,4 +6,4 @@ services:
     volumes:
       - ./app/app.py:/app/app.py
     environment:
-      - flag=flag{e4sy_pyjail_f0r_e4sy_p0ints!}
+      - FLAG=flag{e4sy_pyjail_f0r_e4sy_p0ints!}
