@@ -3,6 +3,7 @@ version: "3.8"
 services:
   cat_viewer:
     build: .
+    restart: unless-stopped
     ports:
       - "6004:80"
     environment:

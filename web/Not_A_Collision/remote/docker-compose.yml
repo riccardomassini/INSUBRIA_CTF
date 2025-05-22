@@ -1,6 +1,7 @@
 services:
   not_a_collision:
     build: .
+    restart: unless-stopped
     ports:
       - "6002:80"
     volumes:

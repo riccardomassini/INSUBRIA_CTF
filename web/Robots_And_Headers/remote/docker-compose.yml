@@ -1,6 +1,7 @@
 services:
   robots_and_headers:
     build: .
+    restart: unless-stopped
     ports:
       - "6001:6001"
     volumes:

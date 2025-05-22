@@ -1,6 +1,7 @@
 services:
   brr_brr_patapim:
     build: .
+    restart: unless-stopped
     ports:
       - "6006:6006"
     volumes:

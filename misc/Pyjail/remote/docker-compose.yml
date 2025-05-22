@@ -1,6 +1,7 @@
 services:
   pyjail:
     build: .
+    restart: unless-stopped
     ports:
       - "6005:6005"
     volumes:
