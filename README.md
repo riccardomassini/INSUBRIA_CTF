@@ -84,6 +84,12 @@
     <td>Lorenzo Naturale <@natu></td>
 </tr>
 <tr>
+    <td><a href="binary/Matrioska2/">Matrioska2</a></td>
+    <td>Rev</td>
+    <td><font color=grey>Easy</font></td>
+    <td>Lorenzo Radice <@ozneroL541></td>
+</tr>
+<tr>
     <td><a href="binary/Seed_Nsational/">Seed Nsational</a></td>
     <td>Rev</td>
     <td><font color=grey>Easy</font></td>
@@ -93,6 +99,12 @@
     <td><a href="binary/Baby-Pivot/">Baby Pivot</a></td>
     <td>Pwn</td>
     <td><font color=grey>Medium</font></td>
+    <td>Alessandro Bugno <@burgos></td>
+</tr>
+<tr>
+    <td><a href="binary/baby_shellcode/">Baby Shellcode</a></td>
+    <td>Pwn</td>
+    <td><font color=grey>Hard</font></td>
     <td>Alessandro Bugno <@burgos></td>
 </tr>
 </table>
