@@ -1,7 +1,7 @@
 # Not a collision
 
 ## Overview
-To get the flag we can use magic hashes (https://github.com/spaze/hashes). In fact, two strings whose hash starts with `0e...` followed by random numbers, if compared with a double equals `==`, will pass the if statement.
+To get the flag we can use magic hashes (https://github.com/spaze/hashes/blob/master/md5.md). In fact, two strings whose hash starts with `0e...` followed by random numbers, if compared with a double equals `==`, will pass the if statement.
 ```php
 if ("0e67523434" == "0e87923444"){
     echo "collision";
