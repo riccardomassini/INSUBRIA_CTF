@@ -86,7 +86,7 @@
 <tr>
     <td><a href="binary/Matrioska2/">Matrioska2</a></td>
     <td>Rev</td>
-    <td><font color=grey>Easy</font></td>
+    <td><font color=grey>Warmup</font></td>
     <td>Lorenzo Radice <@ozneroL541></td>
 </tr>
 <tr>
