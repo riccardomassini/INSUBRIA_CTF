@@ -21,7 +21,7 @@ $sql = "SELECT url_image FROM images WHERE id_image = '" . $image_id . "' LIMIT 
 ```
 
 ## Exploitation Strategy
-This sanitization can be bypassed in a very simple way:
+This sanitization can be bypassed:
 
 - **String termination via double escaping**: We can terminate the original string by injecting a backslash followed by a single quote: ```\'``` (backslash + single quote). After the server-side replacement, it becomes ```\\'``` (double backslash + single quote), where the first backslash escapes the second one, and the single quote is treated as the actual end of the string literal.
 

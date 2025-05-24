@@ -1,7 +1,7 @@
 # Not a collision
 
 ## Overview
-To get the flag we can use magic hashes (https://github.com/spaze/hashes). In fact, two strings whose hash starts with `0e...` followed by random numbers, if compared with a double equals `==,` will pass the if statement.
+To get the flag we can use magic hashes (https://github.com/spaze/hashes). In fact, two strings whose hash starts with `0e...` followed by random numbers, if compared with a double equals `==`, will pass the if statement.
 ```php
 if ("0e67523434" == "0e87923444"){
     echo "collision";
@@ -9,7 +9,7 @@ if ("0e67523434" == "0e87923444"){
 ```
 This happens because the double equals `==` forces the two strings to be treated as numbers in scientific notation, and both are $0*10^{n}$, that is, $0$.
 
-We also see that a variable `$home` is inserted in `include` which can be `home.php` by default or any resource that we insert in page. This is clearly a file inclusion, more precisely to get the flag we need a file disclosure. Thanks to the php wrappers we can get the flag:
+We also see that a variable `$home` is inserted in `include` which can be `home.php` by default or any resource that we insert in page. This is clearly a file inclusion, more precisely to get the flag we need a file disclosure, this is because the flag isn't printed to us, but we can find it in the source code. Thanks to the php wrappers (https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/File%20Inclusion/Wrappers.md) we can get the flag:
 ```
 http://127.0.0.1:6002/?page=php://filter/convert.base64-encode/resource=home.php
 ```
